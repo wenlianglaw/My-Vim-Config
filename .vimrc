@@ -37,7 +37,6 @@ set smartindent
 " For clang formatter.
 :command FormatFile :ClangFormat
 let g:clang_format#code_style = "google"
-let g:clang_format#style_options.IndentWidth = 2
 
 autocmd FileType vim let b:vcm_tab_complete = 'vim'
 
